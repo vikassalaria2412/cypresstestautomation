@@ -1,6 +1,6 @@
 describe('My First Test Suite',function()
 {
-    it('Addition',function(){
+    it('Addition Operation',function(){
         // write calculator app test cases that has two inputs Enter first numebr and second number and one drop down operator where action like Addition,subtraction,multcliplication and division can be selected and click on submit button and verify the result
         cy.visit("http://54.167.122.198:8080/myapp/")
         cy.wait(2000)
@@ -11,7 +11,7 @@ describe('My First Test Suite',function()
         
     })
 
-    it('Subtraction',function(){
+    it('Subtraction Operation',function(){
         // write second test case of subtraction in continuation on same browser and clear previous inputs and enter new inputs and verify the result
         // clear the inputs
         cy.visit("http://54.167.122.198:8080/myapp/")
@@ -24,7 +24,7 @@ describe('My First Test Suite',function()
         
     })
 
-    it('Multiplication',function(){
+    it('Multiplication Operation',function(){
         // write second test case of subtraction in continuation on same browser and clear previous inputs and enter new inputs and verify the result
         // clear the inputs
         cy.visit("http://54.167.122.198:8080/myapp/")
@@ -36,7 +36,7 @@ describe('My First Test Suite',function()
         //cy.get('[type="submit"]').click()
         
     })
-    it('Division',function(){
+    it('Division Operation',function(){
         // write second test case of subtraction in continuation on same browser and clear previous inputs and enter new inputs and verify the result
         // clear the inputs
         cy.visit("http://54.167.122.198:8080/myapp/")
